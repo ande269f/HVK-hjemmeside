@@ -1,0 +1,13 @@
+samtale med chatgpt:
+
+hello, good evening :)
+
+im trying to make a website for my dad's firm, which should only be informational, and i was hoping you could assist me
+
+great! the purpose of the website is to inform potential buyers of his product, and he already has a domain and a web hosting provider. I need to program the website through html, css and javascript. im not sure about the design yet but i was just thinking of trying something out 
+
+cool, i think the structure of the website should more or less be some pictures with text on top of it, and the ability to scroll up and down the website. in the buttom i would love to have a section where a customer can write a message directly to an e-mail
+
+how do i update the 'action' attribute?
+
+the submit button doesnt send anything, what could be wrong?

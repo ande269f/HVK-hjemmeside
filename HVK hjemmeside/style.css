@@ -1,0 +1,83 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    list-style: none;
+}
+
+.nav-list li{
+    flex-shrink: 1;
+    flex-grow: 1;
+
+}
+
+/* Hero section */
+.hero {
+    background-image: url('images/background.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+    /* Main section */
+
+
+/* content section */
+.content {
+    display: flex;
+    padding: 50px;
+}
+
+.content history {
+    color: #333;
+}
+
+/* Product section */
+.product-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.product-section li {
+    color: #6e2d2d;
+}
+
+/* Contact form section */
+.contact {
+    padding: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

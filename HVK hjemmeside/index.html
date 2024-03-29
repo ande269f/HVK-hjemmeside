@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+        <!-- Navigation bar if needed -->
+        <li> <a class="logo" href="#"> logo home button</a></li>
+        <li> <a href="#"> Side 1</a></li>
+        <li> <a href="#"> Side 2</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            Hero text
+        </section>
+
+        <section class="content">
+            <history class="history">
+                <h1>about</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+             <!-- Main content section with more information -->
+            </history>
+
+        </section>
+
+        
+        <section class="product-section">
+            <li> 
+                 <a> hi <!--<img src="images/icons/angle-left.png"> --></a> 
+            </li>
+            <li> 
+                 <a> hi <!--<img src="images/icons/angle-right.png"> --></a> 
+            </li>
+        </section>
+
+
+        <section class="contact">
+            <!-- Contact form section -->
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+
+
+
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    
+    $to = 'andersknudsen98@gmail.com';
+    $subject = 'Message from your website';
+    $headers = "From: $name <$email>";
+    $body = "Name: $name\nEmail: $email\n\n$message";
+    
+    if (mail($to, $subject, $body, $headers)) {
+        echo 'Message sent successfully!';
+    } else {
+        echo 'There was a problem sending your message.';
+    }
+}
+?>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
