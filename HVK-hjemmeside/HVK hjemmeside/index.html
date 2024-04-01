@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section class="front-picture">
+
+            <nav class="nav-area">
+
+                <a class="logo" href="#"> HVK</a>
+
+                <ul class="nav-list">
+                    <li> <a href="#"> About</a></li>
+                    <li> <a href="#"> Products</a></li>
+                    <li> <a href="#"> Contact</a></li>
+                </ul>
+            </nav>
+    
+            <section class = "picture-text-area">
+
+            Pisse fedt motto 
+
+            </section>
+
+    </section>
+
+    <main>
+
+
+        <section class="about-section">
+            <h1 class="section-header">About</h1>
+            <history class="history">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+             <!-- Main content section with more information -->
+            </history>
+
+        </section>
+
+        
+        <section class="product-section">
+            <h1 class="section-header">Products</h1>
+
+
+            <div class = "product-box"> 
+                 <div class = "product-picture">  
+                    <img src="images/icons/cross.png">
+                 </div>
+                 <div class = "product-name"> name </div>
+                 <div class = "product-button"> button </div>
+            </div>
+            
+
+            <div class = "product-box"> 
+                <div class = "product-picture">
+                    <img src="images/icons/cross.png">
+                </div>
+                <div class = "product-name"> name </div>
+                <div class = "product-button"> button </div>
+           </div>
+
+           <div class = "product-box"> 
+                <div class = "product-picture">
+                    <img src="images/icons/cross.png">
+                </div>
+                <div class = "product-name"> name </div>
+                <div class = "product-button"> button </div>
+            </div>
+
+            <div class = "product-box"> 
+                <div class = "product-picture">
+                    <img src="images/icons/cross.png">
+                </div>
+                <div class = "product-name"> name </div>
+                <div class = "product-button"> button </div>
+           </div>
+
+           <div class = "product-box"> 
+                <div class = "product-picture">
+                    <img src="images/icons/cross.png">
+                </div>
+                <div class = "product-name"> name </div>
+                <div class = "product-button"> button </div>
+            </div>
+
+        </section>
+
+
+        <section class="contact">
+            <!-- Contact form section -->
+            <h2 class="section-header">Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+
+
+
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    
+    $to = 'andersknudsen98@gmail.com';
+    $subject = 'Message from your website';
+    $headers = "From: $name <$email>";
+    $body = "Name: $name\nEmail: $email\n\n$message";
+    
+    if (mail($to, $subject, $body, $headers)) {
+        echo 'Message sent successfully!';
+    } else {
+        echo 'There was a problem sending your message.';
+    }
+}
+?>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
