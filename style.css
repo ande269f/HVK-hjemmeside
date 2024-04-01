@@ -12,8 +12,6 @@ body {
     display: flex;
     flex-wrap: wrap;
 
-    border-style: solid;
-    border-color: black;
     backdrop-filter: blur(10px);
     
 }
@@ -27,8 +25,7 @@ body {
     margin-left: auto;
     padding-right: 10%;
 
-    border-style: solid;
-    border-color: orange;
+
     
 }
 
@@ -39,8 +36,7 @@ body {
 /* område i navigation bar */
 .nav-list li{ 
     
-    border-style: solid;
-    border-color: black;
+
 
     
 }
@@ -62,8 +58,7 @@ body {
     color: white;;
     font-size: 60px;
 
-    border-style: solid;
-    border-color: black;
+
 
     
 }
@@ -76,8 +71,7 @@ body {
     height: 60px;
     padding-left: 20px;
 
-    border-style: solid;
-    border-color: red;
+
 
 }
 
@@ -88,8 +82,7 @@ body {
     height: 100vh;
     color: #fff;
 
-    border-style: solid;
-    border-color: orange;
+
 
 
 }
@@ -106,8 +99,7 @@ body {
 
 
 
-    border-style: solid;
-    border-color: green;
+
  
 
 
@@ -126,8 +118,6 @@ body {
     flex-grow: 1;
     
 
-    border-style: solid;
-    border-color: red;
 
     background-color: rgba(219, 219, 219, 0.959);
 
@@ -143,8 +133,6 @@ body {
     display: flex;
     color: #333;
 
-    border-style: solid;
-    border-color: blue;
     padding-left: 50px;
 }
 
@@ -157,8 +145,7 @@ body {
     flex-grow: 1;
     
 
-    border-style: solid;
-    border-color: red;
+
 
 
     margin: 0;
@@ -181,8 +168,7 @@ body {
 
     background-image: linear-gradient(rgb(20, 163, 211), rgb(201, 201, 201));
 
-    border-style: solid;
-    border-color: red;
+
 
 }
 
@@ -191,8 +177,6 @@ body {
 
     border-radius: 2em;
 
-    border-style: solid;
-    border-color: pink;
 }
 
 .product-picture img {
@@ -202,15 +186,12 @@ body {
 
 .product-name {
     display: flex;
-    border-style: solid;
-    border-color: pink;
 
 }
 
 .product-button {
     display: flex;
-    border-style: solid;
-    border-color: pink;
+
     justify-content: center;
 }
 
@@ -218,8 +199,7 @@ body {
 
     width: 100%;
 
-    border-style: solid;
-    border-color: grey;
+
     font-size: 50px;
 }
 
@@ -227,8 +207,7 @@ body {
 .contact {
     padding-left: 50px;
 
-    border-style: solid;
-    border-color: yellow;
+
 }
 
 /* Footer */
