@@ -12,11 +12,8 @@ body {
     display: flex;
     flex-wrap: wrap;
 
-<<<<<<< HEAD:style.css
-=======
     border-style: solid;
     border-color: black;
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
     backdrop-filter: blur(10px);
     
 }
@@ -30,8 +27,6 @@ body {
     margin-left: auto;
     padding-right: 10%;
 
-<<<<<<< HEAD:style.css
-=======
     border-style: solid;
     border-color: orange;
     
@@ -46,20 +41,6 @@ body {
     
     border-style: solid;
     border-color: black;
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
-
-    
-}
-
-<<<<<<< HEAD:style.css
-.nav-list li:hover{
-    background-color: #9c8888;
-}
-
-/* område i navigation bar */
-.nav-list li{ 
-    
-
 
     
 }
@@ -73,17 +54,6 @@ body {
     
 }
 
-=======
-/* text i navigation bar */
-.nav-list a{ 
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-
-    
-}
-
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
 .logo{ 
     display: flex;
 
@@ -92,12 +62,8 @@ body {
     color: white;;
     font-size: 60px;
 
-<<<<<<< HEAD:style.css
-
-=======
     border-style: solid;
     border-color: black;
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
 
     
 }
@@ -110,12 +76,8 @@ body {
     height: 60px;
     padding-left: 20px;
 
-<<<<<<< HEAD:style.css
-
-=======
     border-style: solid;
     border-color: red;
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
 
 }
 
@@ -172,15 +134,10 @@ body {
     flex-shrink: 1;
     flex-grow: 1;
     
-<<<<<<< HEAD:style.css
-
-
-=======
 
     border-style: solid;
     border-color: red;
 
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
     background-color: rgba(219, 219, 219, 0.959);
 
 
@@ -195,11 +152,8 @@ body {
     display: flex;
     color: #333;
 
-<<<<<<< HEAD:style.css
-=======
     border-style: solid;
     border-color: blue;
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
     padding-left: 50px;
 }
 
@@ -263,14 +217,10 @@ body {
 
 .product-button {
     display: flex;
-<<<<<<< HEAD:style.css
-
-=======
     text-decoration: none;
     color: #fff;
     border-style: solid;
     border-color: pink;
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
     justify-content: center;
     padding: 1%;
     border-radius: 2em;
@@ -286,12 +236,8 @@ body {
 
     width: 100%;
 
-<<<<<<< HEAD:style.css
-
-=======
     border-style: solid;
     border-color: grey;
->>>>>>> eb58b79 (	new file:   HVK hjemmeside/images/background2.jpg):HVK hjemmeside/style.css
     font-size: 50px;
 }
 
