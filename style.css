@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 
-    border-style: solid;
+    
     border-color: black;
     backdrop-filter: blur(10px);
     
@@ -28,7 +28,7 @@ body {
 
     
 
-    border-style: solid;
+    
     border-color: orange;
     
 }
@@ -53,7 +53,7 @@ body {
     color: black;
     font-size: 30px;
 
-    border-style: solid;
+    
     border-color: rgb(248, 248, 248);
 
     padding-top: 5%;
@@ -68,8 +68,8 @@ body {
     color: white;;
     font-size: 60px;
 
-    border-style: solid;
-    border-color: black;
+    
+
 
     
 }
@@ -82,8 +82,8 @@ body {
     height: 60px;
     padding-left: 20px;
 
-    border-style: solid;
-    border-color: red;
+    
+
 
 }
 
@@ -94,8 +94,8 @@ body {
     height: 100vh;
     color: #fff;
 
-    border-style: solid;
-    border-color: orange;
+    
+
 
 
 }
@@ -106,8 +106,8 @@ body {
     font-size: 60px;
     font-family: Andale Mono,AndaleMono,monospace; 
 
-    border-style: solid;
-    border-color: green;
+    
+
 }
 
 .picture-text-area {
@@ -129,8 +129,7 @@ body {
     flex-grow: 1;
     
 
-    border-style: solid;
-    border-color: red;
+
 
 
 
@@ -146,15 +145,15 @@ body {
 
 .picture-product-area {
     display: flex;
-    border-style: solid;
-    border-color: rgb(148, 3, 3);
+    
+
     width: 100%;
     padding: 5%;
 }
 
 .left-side {
-    border-style: solid;
-    border-color: rgb(191, 209, 28);
+    
+
 
     width: 50%;
     height: 100%;
@@ -165,8 +164,8 @@ body {
 
 .right-side {
     
-    border-style: solid;
-    border-color: rgb(173, 10, 119);
+    
+
 
     width: 50%;
     height: 100%;
@@ -181,8 +180,8 @@ body {
     max-width: 80%;
     height: auto;
 
-    border-style: solid;
-    border-color: rgb(10, 173, 10);
+    
+
 
 
 }
@@ -203,8 +202,8 @@ body {
     padding-bottom: 10%;
     list-style: none;
 
-    border-style: solid;
-    border-color: blue;
+    
+
 
 }
 
@@ -263,8 +262,8 @@ body {
 
 .section-header {
     width: 100%;
-    border-style: solid;
-    border-color: grey;
+    
+
     font-size: 70px;
     text-align: center
     
@@ -293,8 +292,8 @@ body {
     background-size: cover;
 
 
-    border-style: solid;
-    border-color: rgb(102, 172, 162);
+    
+
 }
 
 .contact .content {
