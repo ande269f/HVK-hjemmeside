@@ -20,29 +20,31 @@ body {
 
 .nav-list{
     display: flex;
-    
 
     list-style: none;
     gap: 10%;
     margin-left: auto;
     padding-right: 10%;
 
+    
+
     border-style: solid;
     border-color: orange;
     
 }
 
-.nav-list li:hover{
+@media only screen and (max-width: 900px) {
+    .nav-list {
+      padding-left: 0%;
+      gap: 5%;
+      padding-right: 0%;
+      margin-right: auto;
+      justify-content: center;
+    }
+  }
+
+.nav-list a:hover{
     background-color: #9c8888;
-}
-
-/* område i navigation bar */
-.nav-list li{ 
-    
-    border-style: solid;
-    border-color: black;
-
-    
 }
 
 /* text i navigation bar */
@@ -51,7 +53,11 @@ body {
     color: black;
     font-size: 30px;
 
-    
+    border-style: solid;
+    border-color: rgb(248, 248, 248);
+
+    padding-top: 5%;
+
 }
 
 .logo{ 
@@ -109,18 +115,6 @@ body {
     display: flex;
     font-size: 60px;
     font-family: Andale Mono,AndaleMono,monospace; 
-
-    position: relative;
-    left: 15%;
-    top: 30%;
-
-
-
-
- 
-
-
-
 }
 
     /* Main section */
@@ -138,43 +132,82 @@ body {
     border-style: solid;
     border-color: red;
 
-    background-color: rgba(219, 219, 219, 0.959);
 
 
-    margin: 0;
-    padding-left: 10%;
-    padding-right: 10%;
+
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
     list-style: none;
 
 }
 
-.history {
+
+
+.picture-product-area {
     display: flex;
-    color: #333;
+    border-style: solid;
+    border-color: rgb(148, 3, 3);
+    width: 100%;
+    padding: 5%;
+}
+
+.left-side {
+    border-style: solid;
+    border-color: rgb(191, 209, 28);
+
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+
+
+}
+
+.right-side {
+    
+    border-style: solid;
+    border-color: rgb(173, 10, 119);
+
+    width: 50%;
+    height: 100%;
+}
+
+.about-section-image{
+
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
 
     border-style: solid;
-    border-color: blue;
-    padding-left: 50px;
+    border-color: rgb(10, 173, 10);
+
+
 }
 
 /* Product section */
 .product-section{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     flex-shrink: 1;
     flex-grow: 1;
+    justify-content: center;
     
-
-
-
-
+    
     margin: 0;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 10%;
     list-style: none;
 
+    border-style: solid;
+    border-color: blue;
+
 }
+
 
 
 .product-box {
@@ -182,12 +215,13 @@ body {
     flex-direction: column;
 
     width: 25%;
+    min-width: 180px;
     height: 35%;
 
-    padding: 10px;
-    border-radius: 2em;
+    padding: 1%;
+    border-radius: 1em;
 
-    background-image: linear-gradient(rgb(20, 163, 211), rgb(201, 201, 201));
+    background: rgb(199, 199, 199);
 
 
 
@@ -195,101 +229,210 @@ body {
 
 .product-picture {
     display: flex;
-
     border-radius: 2em;
 
 }
-
 
 
 .product-picture img {
     max-width: 100%;
     height: auto;
     display: flex;
+    border-radius: 1em;
+}
 
-    border-radius: 2em;
+.product-information-row {
+    font-weight: bold;
 }
 
 .product-name {
     display: flex;
-
-}
-
-.product-button {
-    display: flex;
-    text-decoration: none;
-    color: #fff;
-    border-style: solid;
-    border-color: pink;
     justify-content: center;
-    padding: 1%;
-    border-radius: 2em;
-    background-color: rgb(85, 85, 199);
+    font-size: 25px;
+    padding: 3%;
 }
 
-.product-button:hover, .product-button:focus, .product-button:active{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.03);
+
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+
 }
+
 
 .section-header {
-
     width: 100%;
-
     border-style: solid;
     border-color: grey;
-    font-size: 50px;
-}
-
-/* Product page area */
-.picture-product-area {
-    display: flex;
-    border-style: solid;
-    border-color: grey;
-    width: 100%;
-
-}
-
-.left-side {
-    border-style: solid;
-    border-color: grey;
-
-    width: 50%;
-    height: 50%;
-    background-color: #333;
-}
-
-.right-side {
+    font-size: 70px;
+    text-align: center
     
-    border-style: solid;
-    border-color: grey;
-    margin-left: auto;
-    width: 50%;
-    height: 50%;
-
-
 }
-
-.right-side img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-
 
 /* Contact form section */
-.contact {
-    padding-left: 50px;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* 
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
 }
+.contact 
+{
+    position: relative;
+    min-height: 70vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('images/background2.jpg');
+    background-size: cover;
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: #fff;
+
+    border-style: solid;
+    border-color: rgb(102, 172, 162);
+}
+
+.contact .content {
+    max-width: 800px;
     text-align: center;
-    padding: 20px 0;
 }
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span 
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px) {
+    .contact {
+        padding: 50px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .contactInfo {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm {
+        width: 100%;
+    }
+}
+
+
+
